@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  padding:0px;
+  margin:0px;
+}
+
+* {
+  box-sizing: border-box;
+  color:rgb(0, 161, 112)
+}
+.column {
+  text-align: center;
+  float: left;
+  padding: 10px;
+  border:1px;
+  height:100%;
+  border-color: rgb(0, 161, 112);
+  border-style: solid;
+
+}
+
+.left {
+  width: 25%;
+  background-color: rgb(10, 40, 40);
+}
+
+.right {
+  width: 25%;
+    background-color: rgb(10, 40, 40);
+}
+
+.middle {
+  width: 50%;
+    background-color: rgb(10, 20, 20);
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
